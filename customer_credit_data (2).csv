@@ -1,0 +1,6 @@
+Customer_ID,Age,Income,Credit_Score,Credit_Utilization,Missed_Payments,Delinquent_Account,Loan_Balance,Debt_to_Income_Ratio,Employment_Status,Account_Tenure,Credit_Card_Type,Location,Month_1,Month_2,Month_3,Month_4,Month_5,Month_6
+CUST0001,56,165580,398,0.390502,2,0,16310,0.317396,EMP,18,Student,Los Angeles,Late,Late,Missed,Late,Missed,Late
+CUST0002,69,100999,493,0.312444,3,1,17401,0.196093,Self-employed,0,Standard,Phoenix,Missed,Missed,Late,Missed,On-time,On-time
+CUST0003,46,188416,500,0.35993,2,0,13761,0.301655,Self-employed,1,Platinum,Chicago,Missed,Late,Late,On-time,Missed,Late
+CUST0004,32,101672,413,0.3714,2,0,88778,0.264794,Unemployed,15,Platinum,Phoenix,Late,Missed,Late,Missed,Late,Late
+CUST0005,60,38524,487,0.234716,2,0,13316,0.510583,Self-employed,11,Standard,Phoenix,Missed,On-time,Missed,Late,Late,Late

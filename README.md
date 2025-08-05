@@ -6,29 +6,30 @@ This dataset contains detailed customer financial and credit behavior data colle
 
 ## Dataset Description
 
-| Column Name           | Description                                                         |
-|----------------------|---------------------------------------------------------------------|
-| Customer_ID          | Unique identifier for each customer                                 |
-| Age                  | Age of the customer                                                 |
-| Income               | Annual income of the customer                                       |
-| Credit_Score         | Credit score value                                                  |
-| Credit_Utilization   | Ratio of used credit to total credit limit                         |
-| Missed_Payments      | Number of missed payments                                          |
-| Delinquent_Account   | Indicator if the account is delinquent (1 = yes, 0 = no)           |
-| Loan_Balance         | Outstanding loan balance                                           |
-| Debt_to_Income_Ratio | Ratio of debt payments to income                                   |
-| Employment_Status    | Employment status (e.g., EMP, Self-employed, Unemployed)            |
-| Account_Tenure       | Duration of account in months                                      |
-| Credit_Card_Type     | Type of credit card (Standard, Platinum, Student, etc.)           |
-| Location             | Geographic location of the customer                                |
-| Month_1 to Month_6   | Payment status for the last six months (On-time, Late, Missed)     |
+| Field               | Description                                     |
+|---------------------|------------------------------------------------|
+| Customer_ID         | Unique identifier for each customer             |
+| Age                 | Customer age in years                            |
+| Income              | Annual income in USD                             |
+| Credit_Score        | Credit score (lower means higher risk)          |
+| Credit_Utilization  | Ratio of credit used to total credit available  |
+| Missed_Payments     | Number of missed payments                        |
+| Delinquent_Account  | Whether the account has delinquent status (0/1)|
+| Loan_Balance        | Outstanding loan balance in USD                  |
+| Debt_to_Income_Ratio| Ratio of debt payments to income                 |
+| Employment_Status   | Employment status (EMP, Self-employed, Unemployed) |
+| Account_Tenure      | Number of years with the credit account          |
+| Credit_Card_Type    | Type of credit card held (Standard, Platinum, Student) |
+| Location            | Customer location (city)                          |
+| Month_1 to Month_6  | Payment status for last 6 months (On-time, Late, Missed) |
 
 ## Sample Data
 
-| Customer_ID | Age | Income | Credit_Score | Credit_Utilization | Missed_Payments | Delinquent_Account | Loan_Balance | Debt_to_Income_Ratio | Employment_Status | Account_Tenure | Credit_Card_Type | Location     | Month_1 | Month_2 | Month_3 | Month_4 | Month_5 | Month_6 |
-|-------------|-----|--------|--------------|--------------------|-----------------|--------------------|--------------|---------------------|-------------------|----------------|------------------|--------------|---------|---------|---------|---------|---------|---------|
-| CUST0001    | 56  | 165580 | 398          | 0.3905             | 3               | 0                  | 16310        | 0.3174              | EMP               | 18             | Student          | Los Angeles  | Late    | Late    | Missed  | Late    | Missed  | Late    |
-| CUST0002    | 69  | 100999 | 493          | 0.3124             | 6               | 1                  | 17401        | 0.1961              | Self-employed     | 0              | Standard         | Phoenix      | Missed  | Missed  | Late    | Missed  | On-time | On-time |
+| Customer_ID | Age | Income | Credit_Score | Credit_Utilization | Missed_Payments | Delinquent_Account | Loan_Balance | Debt_to_Income_Ratio | Employment_Status | Account_Tenure | Credit_Card_Type | Location    | Month_1 | Month_2 | Month_3 | Month_4 | Month_5 | Month_6 |
+|-------------|-----|--------|--------------|--------------------|-----------------|--------------------|--------------|---------------------|-------------------|----------------|------------------|-------------|---------|---------|---------|---------|---------|---------|
+| CUST0001    | 56  | 165580 | 398          | 0.3905             | 2               | 0                  | 16310        | 0.3174              | EMP               | 18             | Student          | Los Angeles | Late    | Late    | Missed  | Late    | Missed  | Late    |
+| CUST0002    | 69  | 100999 | 493          | 0.3124             | 3               | 1                  | 17401        | 0.1961              | Self-employed     | 0              | Standard         | Phoenix     | Missed  | Missed  | Late    | Missed  | On-time | On-time |
+| CUST0003    | 46  | 188416 | 500          | 0.3599             | 2               | 0                  | 13761        | 0.3017              | Self-employed     | 1              | Platinum         | Chicago     | Missed  | Late    | Late    | On-time | Missed  | Late    |
 
 ## Usage
 

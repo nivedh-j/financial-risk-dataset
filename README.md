@@ -12,7 +12,7 @@ This dataset contains detailed customer financial and credit behavior data colle
 | Age                 | Customer age in years                            |
 | Income              | Annual income in USD                             |
 | Credit_Score        | Credit score (lower means higher risk)          |
-| Credit_Utilization  | Ratio of credit used to total credit available  |
+| Credit_Utilization  | Ratio of credit used to total credit available  | 
 | Missed_Payments     | Number of missed payments                        |
 | Delinquent_Account  | Whether the account has delinquent status (0/1)|
 | Loan_Balance        | Outstanding loan balance in USD                  |
